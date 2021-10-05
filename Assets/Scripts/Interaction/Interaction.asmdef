@@ -1,0 +1,21 @@
+{
+    "name": "Interaction",
+    "rootNamespace": "VEngine.Interaction",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:c898d4db3ec91854f9e8ad93f6cebc6d",
+        "GUID:71a0768a0ec0e6044a4fa0dd23ba92c7",
+        "GUID:9072e6e43fc50ab44b63d925a95501c9",
+        "GUID:9b830518a96896340bb50fbb95a44713",
+        "GUID:bf7a35548471edd488c393113b7ed7f0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

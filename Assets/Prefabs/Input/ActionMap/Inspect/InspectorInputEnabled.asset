@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c704d85d77b38cd47882015df18eb004, type: 3}
+  m_Name: InspectorInputEnabled
+  m_EditorClassIdentifier: 
+  _value: {fileID: 11400000, guid: 122b799716cbc9448a6ca23760d2ae74, type: 2}
+  _onChangedEvent: {fileID: 11400000, guid: e8fc8e12118b3f444b961024a0fb5cd9, type: 2}

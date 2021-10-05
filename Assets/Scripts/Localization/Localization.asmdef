@@ -1,0 +1,16 @@
+{
+    "name": "Localization",
+    "rootNamespace": "VEngine.Localization",
+    "references": [
+        "GUID:71a0768a0ec0e6044a4fa0dd23ba92c7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

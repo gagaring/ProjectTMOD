@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9773793d16f648c498d4fd680d66aba6, type: 3}
+  m_Name: InspectCommand
+  m_EditorClassIdentifier: 
+  _text:
+    _useConstant: 0
+    _constantValue: Inspect
+    _variable: {fileID: 11400000, guid: ed2b0fe9068356a42b5ce030a081e89d, type: 2}
+  _setInspectableObject: {fileID: 11400000, guid: cdf1a347602ddc846863679233066186, type: 2}
+  _openInspector: {fileID: 11400000, guid: b916363f4ae4ee84e8e5a3a5634ccfec, type: 2}
+  _inspectables: {fileID: 11400000, guid: 4697829f6a5b33f429e92f5f124839a2, type: 2}

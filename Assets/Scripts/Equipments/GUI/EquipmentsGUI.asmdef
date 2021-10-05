@@ -1,0 +1,21 @@
+{
+    "name": "EquipmentsGUI",
+    "rootNamespace": "VEngine.Equipments.GUI",
+    "references": [
+        "GUID:71a0768a0ec0e6044a4fa0dd23ba92c7",
+        "GUID:c898d4db3ec91854f9e8ad93f6cebc6d",
+        "GUID:7332e520e561cc841abbda112cbaca8c",
+        "GUID:b2ac4c7954d4b084ab3f316833e7c15c",
+        "GUID:324b357b465a7a142a312ea82c0d8a93",
+        "GUID:e81868a886bdcef4ebb314dc5fcea327"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

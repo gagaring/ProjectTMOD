@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99115ca7bf2936b4a8a483421efb1042, type: 3}
+  m_Name: PlayerSprintMoveState
+  m_EditorClassIdentifier: 
+  OnEnter: {fileID: 11400000, guid: 72dccee7e379c554b8054b054e904ce8, type: 2}
+  OnExit: {fileID: 11400000, guid: 309779eb19c0251459e5652e05d88a31, type: 2}
+  _wantToSprint:
+    UseConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 8cd0837fce63c204cbc20f04b8a3867f, type: 2}
+  _canStandUp:
+    UseConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: ec7260539a6eac54d820f5ba157a0632, type: 2}

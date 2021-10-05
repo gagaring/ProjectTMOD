@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e42648a50ff1144af2d4635eae7f97, type: 3}
+  m_Name: PlayerStandMoveState
+  m_EditorClassIdentifier: 
+  OnEnter: {fileID: 11400000, guid: e93772a8de78aca4193f343aa8c0147d, type: 2}
+  OnExit: {fileID: 11400000, guid: 8db4974d3cc7d6a469797248d15d5d29, type: 2}
+  _wantToCrouch:
+    UseConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 069a734231ab6ae4395d7c07c7082523, type: 2}
+  _canStandUp:
+    UseConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: ec7260539a6eac54d820f5ba157a0632, type: 2}

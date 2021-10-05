@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8880527528567001634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8880527528567001632}
+  - component: {fileID: 8880527528567001633}
+  - component: {fileID: 8880527528567001637}
+  - component: {fileID: 764731959}
+  m_Layer: 0
+  m_Name: ThrowableTest_Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8880527528567001632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880527528567001634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1029.3453, y: 1240.7449, z: -103.381096}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8880527527885706926}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8880527528567001633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880527528567001634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8116984dc88355943b2b92639256eec4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8880527527885706927}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: OnItemUsed
+      Entry: 6
+      Data: 
+    - Name: _useHandComponents
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[VEngine.Equipments.IUseHandComponent,
+        Equipments]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _handPosition: {fileID: 11400000, guid: 5d07681b3e478af4598a499dca09afeb, type: 2}
+  _viewDirection: {fileID: 11400000, guid: 5d07681b3e478af4598a499dca09afeb, type: 2}
+--- !u!114 &8880527528567001637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880527528567001634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07114bc1f65f5d14795695b47470e9e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _event: {fileID: 11400000, guid: 8aafa4ce59c5b4b47b573a3b22001f58, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8880527528567001633}
+        m_TargetAssemblyTypeName: VEngine.HandSystem.HandControllerBehaviour, HandSystem
+        m_MethodName: UseHand
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &764731959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880527528567001634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: facf047e316898542a0b5cce957750ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _event: {fileID: 11400000, guid: 725eab5093748484f80c0ac8b98faa31, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8880527528567001633}
+        m_TargetAssemblyTypeName: VEngine.Equipments.HandSystem.HandBehaviour, HandSystem
+        m_MethodName: EquipItem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1001 &8050011051531610428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8880527528567001632}
+    m_Modifications:
+    - target: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480165691879735187, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 1480165691879735187, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+    - target: {fileID: 1480165691879735188, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+      propertyPath: m_Name
+      value: ThrowController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+--- !u!4 &8880527527885706926 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1480165691879735186, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+  m_PrefabInstance: {fileID: 8050011051531610428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8880527527885706927 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1480165691879735187, guid: 572bd3f995fc88042ab8fea2fc7a6c49, type: 3}
+  m_PrefabInstance: {fileID: 8050011051531610428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79ce3f821c6fb441b519548b8f0cc79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

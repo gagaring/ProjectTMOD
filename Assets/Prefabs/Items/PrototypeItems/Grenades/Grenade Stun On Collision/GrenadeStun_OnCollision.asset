@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc122709099ec64f915355225c622e7, type: 3}
+  m_Name: GrenadeStun_OnCollision
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: b71e8ce722c6f8544ae3902a93c645ee, type: 2}
+    - {fileID: 11400000, guid: 9b17334ac85119e4abd7ae5a027b5b90, type: 2}
+    - {fileID: 11400000, guid: 3fd13e962958c644693ce7e289807e29, type: 2}
+    - {fileID: 11400000, guid: 293257ad5e436a6459051680cb813910, type: 2}
+    - {fileID: 11400000, guid: babe8737565284242a44198c0c311f12, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _entity
+      Entry: 10
+      Data: 0
+    - Name: _useage
+      Entry: 10
+      Data: 1
+    - Name: _eventListeners
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[VEngine.Artifacts.IArtifactUseageEvent,
+        Artifacts]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

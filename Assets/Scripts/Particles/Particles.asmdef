@@ -1,0 +1,19 @@
+{
+    "name": "Particles",
+    "rootNamespace": "VEngine.Particles",
+    "references": [
+        "GUID:71a0768a0ec0e6044a4fa0dd23ba92c7",
+        "GUID:c898d4db3ec91854f9e8ad93f6cebc6d",
+        "GUID:82f7768eb55d32f45bbdbaa93ddf7fac",
+        "GUID:0674ad23d716d6344a98d8259a820db4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

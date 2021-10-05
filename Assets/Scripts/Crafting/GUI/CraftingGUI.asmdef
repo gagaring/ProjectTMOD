@@ -1,0 +1,23 @@
+{
+    "name": "CraftingGUI",
+    "rootNamespace": "VEngine.Crafting.GUI",
+    "references": [
+        "GUID:71a0768a0ec0e6044a4fa0dd23ba92c7",
+        "GUID:c898d4db3ec91854f9e8ad93f6cebc6d",
+        "GUID:d9cdabb0dc8fdc44db6b5e9a7895e309",
+        "GUID:7332e520e561cc841abbda112cbaca8c",
+        "GUID:f4ff32f5390f9a541a34717b8f0cebb0",
+        "GUID:324b357b465a7a142a312ea82c0d8a93",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:9072e6e43fc50ab44b63d925a95501c9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

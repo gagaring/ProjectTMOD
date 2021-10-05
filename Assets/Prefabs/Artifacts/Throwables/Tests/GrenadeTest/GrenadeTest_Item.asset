@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee03660fde53efb41a9844f72148e69b, type: 3}
+  m_Name: GrenadeTest_Item
+  m_EditorClassIdentifier: 
+  _details:
+    _name:
+      _useConstant: 1
+      _constantValue: Granade
+      _variable: {fileID: 0}
+    _description:
+      _useConstant: 1
+      _constantValue: Granadeeeeee
+      _variable: {fileID: 0}
+  _components:
+  - {fileID: 11400000, guid: 6b7d597194a526c4dbc60fb257d18400, type: 2}
+  - {fileID: 11400000, guid: 5f088050b22129747a72c9c02c770234, type: 2}
+  - {fileID: 11400000, guid: a507548b5c4f60942a7f47c014101100, type: 2}
+  - {fileID: 11400000, guid: 48ae6245eebd8404093412421d604dca, type: 2}
+  - {fileID: 11400000, guid: c7a972fb75dc61d4c9c592820d2caedf, type: 2}

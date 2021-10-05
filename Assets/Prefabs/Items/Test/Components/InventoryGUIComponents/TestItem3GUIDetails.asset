@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09629d5a8fa75a04f94e671cc3f47c82, type: 3}
+  m_Name: TestItem3GUIDetails
+  m_EditorClassIdentifier: 
+  _name:
+    _useConstant: 1
+    _constantValue: Medic
+    _variable: {fileID: 0}
+  _description:
+    _useConstant: 1
+    _constantValue: Need medic
+    _variable: {fileID: 0}
+  _avatar: {fileID: 21300000, guid: ef2472da3ef868140b9a551c97e31ad2, type: 3}

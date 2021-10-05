@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c704d85d77b38cd47882015df18eb004, type: 3}
+  m_Name: PlayerInputEnabled
+  m_EditorClassIdentifier: 
+  _value: {fileID: 11400000, guid: 5fc920b132a71b44e97a0d5a64ed502f, type: 2}
+  _onChangedEvent: {fileID: 11400000, guid: 539c51c4ea80cc94b9ad29c656edfb33, type: 2}

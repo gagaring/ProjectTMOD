@@ -1,0 +1,17 @@
+{
+    "name": "CharacterMovementEditor",
+    "rootNamespace": "VEditor.CharacterMovement",
+    "references": [
+        "GUID:677025123936b394b9f45d83f51a36dc",
+        "GUID:9e867ff6dc7701b4a83304d4bf0f3d36"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

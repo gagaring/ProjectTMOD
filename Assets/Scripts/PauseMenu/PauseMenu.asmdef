@@ -1,0 +1,19 @@
+{
+    "name": "PauseMenu",
+    "rootNamespace": "VEngine.PauseMenu",
+    "references": [
+        "GUID:71a0768a0ec0e6044a4fa0dd23ba92c7",
+        "GUID:c898d4db3ec91854f9e8ad93f6cebc6d",
+        "GUID:d9cdabb0dc8fdc44db6b5e9a7895e309",
+        "GUID:2e56afeba46f3ca429afba9c69919df5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

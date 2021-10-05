@@ -1,0 +1,23 @@
+{
+    "name": "ItemsCreator",
+    "rootNamespace": "VEditor.Items.Creator",
+    "references": [
+        "GUID:7332e520e561cc841abbda112cbaca8c",
+        "GUID:352a0588737c22f4fb32f5a6333d3772",
+        "GUID:59a32bba59b6b074b8557e3a5a35fec0",
+        "GUID:c0fbd7a0546521841b1b61061dd8d1b7",
+        "GUID:82f7768eb55d32f45bbdbaa93ddf7fac",
+        "GUID:0674ad23d716d6344a98d8259a820db4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b1ec3a0132de14481270f1f3806271, type: 3}
+  m_Name: DefaultScenes
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 5a3d4b544b0cffa4ebf6dae122453a2a, type: 2}
+    - {fileID: 11400000, guid: e9229132881a0734a992dfa92877f96b, type: 2}
+    - {fileID: 11400000, guid: b8836c30ad396fa4797c093c235aaa05, type: 2}
+    - {fileID: 11400000, guid: ba8ce059b0fa9614cb74545e43d5ae32, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _list
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[VEngine.SceneSystem.ISceneData,
+        SceneSystem]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

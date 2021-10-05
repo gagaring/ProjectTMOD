@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6036438327476670166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6036438327476670167}
+  - component: {fileID: 6036438327476670164}
+  - component: {fileID: 6036438327476670163}
+  - component: {fileID: 6036438327476670162}
+  - component: {fileID: 6036438327476670165}
+  - component: {fileID: 8490844854669480443}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6036438327476670167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036438327476670166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6036438327476670164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036438327476670166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 160ca4c23ceed2c479ce672cd5fba6f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _defaultSceneLoader: {fileID: 11400000, guid: 3e72749a482ed0847bb5889b1b76d779, type: 2}
+  _gameGUIMaster: {fileID: 6036438327476670163}
+  _gameTimeController: {fileID: 6036438327476670162}
+  _isPausedMenuActive:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 717b3c33109eb294e942db98cfeb49a0, type: 2}
+  _isInteractionActive:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: c6bfb069b4060854fa7be1ff27e7db16, type: 2}
+  _loadDefaults: 1
+--- !u!114 &6036438327476670163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036438327476670166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c4b982ccac60064eb757f7c1151a479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: b4c863813e09b6444895d78bb9c4ab35, type: 2}
+    - {fileID: 11400000, guid: 15a471055da238e43b1246bf8c65d1e6, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _windowStackReference
+      Entry: 10
+      Data: 0
+    - Name: _closeTopWindowGameEvent
+      Entry: 10
+      Data: 1
+--- !u!114 &6036438327476670162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036438327476670166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f2a94dec803bea468f6783499dc64a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _setTimeGameEvent: {fileID: 11400000, guid: b1c1ca647b10918498c7f311bd607488, type: 2}
+  _normalGameSpeed: {fileID: 11400000, guid: dbbd76aaf5fb35949857dfe50b7fa6c1, type: 2}
+  _pausedGameSpeed: {fileID: 11400000, guid: 0eee13a7f9c39284088319eb2872802d, type: 2}
+  _emptyInput: {fileID: 11400000, guid: 9b016e718d18ecc4b9decad9d0d72375, type: 2}
+  _isGamePaused: {fileID: 11400000, guid: b644d4851bdb50541a1c5f0819a0d4e3, type: 2}
+--- !u!114 &6036438327476670165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036438327476670166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 320b903f96d71424d962ce6d4541694f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _event: {fileID: 11400000, guid: 91cd55d51a9fb84438329cf12b834afe, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6036438327476670164}
+        m_TargetAssemblyTypeName: VEngine.Game.GameMasterBehaviour, Game
+        m_MethodName: OnClosePressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8490844854669480443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036438327476670166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07114bc1f65f5d14795695b47470e9e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _event: {fileID: 11400000, guid: 81b6949946457d84bb1234a18cb00488, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6036438327476670164}
+        m_TargetAssemblyTypeName: VEngine.Game.GameMasterBehaviour, Game
+        m_MethodName: PauseGame
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

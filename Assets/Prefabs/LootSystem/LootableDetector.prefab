@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1737878517740226307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 683521307445250885}
+  - component: {fileID: 2243485970291270178}
+  m_Layer: 0
+  m_Name: LootableDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &683521307445250885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737878517740226307}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3432178, y: -1.2843885, z: 0.5369017}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2243485970291270178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737878517740226307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d180b705e5db8c244864aa7dcd345411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _detectionRaycastLayerMask:
+    _useConstant: 0
+    _constantValue:
+      serializedVersion: 2
+      m_Bits: 0
+    _variable: {fileID: 11400000, guid: 1068d2aa708938140acbd12cda11630c, type: 2}
+  _range:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 909f7c25429230e46ba0201f011113b6, type: 2}
+  _cameraTransform: {fileID: 11400000, guid: 5d07681b3e478af4598a499dca09afeb, type: 2}
+  _onLootableFound: {fileID: 11400000, guid: 8757fe695c0e0734caa1ab3ce4b30d88, type: 2}

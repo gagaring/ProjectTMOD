@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6810062285850607786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6810062285850607785}
+  - component: {fileID: 6810062285850607784}
+  - component: {fileID: 6128158779755234487}
+  m_Layer: 0
+  m_Name: PlayerInputObserver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6810062285850607785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810062285850607786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0402184, y: 3.477015, z: -1.9940636}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6810062285850607784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810062285850607786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c85e93f423b83e04c81a84298c5c3940, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isEnabled: {fileID: 11400000, guid: 53560bfccf59193459cf1dfcc79f7f79, type: 2}
+  _move: {fileID: 11400000, guid: 39761daf6a6250a46a154e6c3c419e44, type: 2}
+  _crouch: {fileID: 11400000, guid: 8b44fd8059461734583861b28036d6f7, type: 2}
+  _sprint: {fileID: 11400000, guid: c487750a40e855a4985f3fcbb7cd4571, type: 2}
+  _tilt: {fileID: 11400000, guid: 53b0d4cd84fa8814aa7c9b10818fa7f9, type: 2}
+  _rotate: {fileID: 11400000, guid: 76b39613215a6cb4695089016af86513, type: 2}
+  _interact: {fileID: 11400000, guid: 7f0e5b41a3c016b4eb2eb7a57e26f8ea, type: 2}
+  _jump: {fileID: 11400000, guid: 4c0c8ff40cd45a640a477603cd504b07, type: 2}
+  _loot: {fileID: 11400000, guid: 80c73dff3a0b08643838886b13f4dd7b, type: 2}
+--- !u!114 &6128158779755234487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810062285850607786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07114bc1f65f5d14795695b47470e9e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _event: {fileID: 11400000, guid: 539c51c4ea80cc94b9ad29c656edfb33, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6810062285850607784}
+        m_TargetAssemblyTypeName: VEngine.Player.CPlayerInputObserver, Player
+        m_MethodName: Activate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

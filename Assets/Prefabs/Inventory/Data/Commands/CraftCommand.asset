@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782e5499591d2a647a91ed526cfe290c, type: 3}
+  m_Name: CraftCommand
+  m_EditorClassIdentifier: 
+  _text:
+    _useConstant: 0
+    _constantValue: Craftolja
+    _variable: {fileID: 11400000, guid: 20c24fdb711e5b04c824abe26cc0047f, type: 2}
+  _isCraftingEnabled:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: cd16845de2eb9684581709f10461a464, type: 2}
+  _openCraftEvent: {fileID: 11400000, guid: 6f93f089d97bbe74a99fbcb47c215d5f, type: 2}
+  _combinator: {fileID: 11400000, guid: 596a9800fd468a14b888a3cdccec9a84, type: 2}

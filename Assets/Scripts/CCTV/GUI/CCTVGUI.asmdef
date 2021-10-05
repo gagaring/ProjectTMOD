@@ -1,0 +1,20 @@
+{
+    "name": "CCTVGUI",
+    "rootNamespace": "VEngine.CCTV.GUI",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:71a0768a0ec0e6044a4fa0dd23ba92c7",
+        "GUID:c898d4db3ec91854f9e8ad93f6cebc6d",
+        "GUID:d9cdabb0dc8fdc44db6b5e9a7895e309",
+        "GUID:050c15f18bfb3c44daa32b0abf57621f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

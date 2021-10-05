@@ -1,0 +1,21 @@
+{
+    "name": "Artifacts_Throwable",
+    "rootNamespace": "VEngine.Artifacts.Throwables",
+    "references": [
+        "GUID:71a0768a0ec0e6044a4fa0dd23ba92c7",
+        "GUID:c898d4db3ec91854f9e8ad93f6cebc6d",
+        "GUID:0674ad23d716d6344a98d8259a820db4",
+        "GUID:7332e520e561cc841abbda112cbaca8c",
+        "GUID:b769bbe9ece653e4bad0c1cf755fbe8c",
+        "GUID:352a0588737c22f4fb32f5a6333d3772"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

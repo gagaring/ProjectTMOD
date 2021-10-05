@@ -1,0 +1,19 @@
+{
+    "name": "InventoryEditor",
+    "rootNamespace": "VEditor.Inventory",
+    "references": [
+        "GUID:9e867ff6dc7701b4a83304d4bf0f3d36",
+        "GUID:7332e520e561cc841abbda112cbaca8c",
+        "GUID:b2ac4c7954d4b084ab3f316833e7c15c",
+        "GUID:324b357b465a7a142a312ea82c0d8a93"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

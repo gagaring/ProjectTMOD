@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 626df8acd3af53145b93e50f7e6469e1, type: 3}
+  m_Name: ExplosionParticleEffectCommand
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 71624a7d400a755429a0d3c8d7bdb6cb, type: 2}
+    - {fileID: 11400000, guid: 48310c359e6549c4086c267be0359d27, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _system
+      Entry: 10
+      Data: 0
+    - Name: _data
+      Entry: 10
+      Data: 1
+  _prefab: {fileID: 4084002237839031725, guid: ce5e75f71a974a248a32d939e2372c3a, type: 3}

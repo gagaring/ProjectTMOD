@@ -1,0 +1,23 @@
+{
+    "name": "PlayerMenu",
+    "rootNamespace": "VEngine.PlayerMenu",
+    "references": [
+        "GUID:71a0768a0ec0e6044a4fa0dd23ba92c7",
+        "GUID:c898d4db3ec91854f9e8ad93f6cebc6d",
+        "GUID:d9cdabb0dc8fdc44db6b5e9a7895e309",
+        "GUID:7332e520e561cc841abbda112cbaca8c",
+        "GUID:324b357b465a7a142a312ea82c0d8a93",
+        "GUID:9072e6e43fc50ab44b63d925a95501c9",
+        "GUID:f4ff32f5390f9a541a34717b8f0cebb0",
+        "GUID:b2ac4c7954d4b084ab3f316833e7c15c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

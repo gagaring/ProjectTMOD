@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e08b94f80a3fcd4dabeaffc2d93ad2d, type: 3}
+  m_Name: DefaultSceneListLoaderSO
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: da6da996840ec6a46afe7834c9d2b645, type: 2}
+    - {fileID: 11400000, guid: add092684c6df7c48b18346fca7b5691, type: 2}
+    - {fileID: 11400000, guid: fc68f191e4bb135468e3aec2af04f0cf, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _scenes
+      Entry: 10
+      Data: 0
+    - Name: _loadSceneData
+      Entry: 10
+      Data: 1
+    - Name: _loadScenesEvent
+      Entry: 10
+      Data: 2

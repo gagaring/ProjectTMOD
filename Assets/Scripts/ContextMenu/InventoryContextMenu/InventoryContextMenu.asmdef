@@ -1,0 +1,27 @@
+{
+    "name": "InventoryContextMenu",
+    "rootNamespace": "VEngine.ContextMenu.Inventory",
+    "references": [
+        "GUID:71a0768a0ec0e6044a4fa0dd23ba92c7",
+        "GUID:c898d4db3ec91854f9e8ad93f6cebc6d",
+        "GUID:7332e520e561cc841abbda112cbaca8c",
+        "GUID:7681b5da26458d24b9dd8169c13fb47b",
+        "GUID:324b357b465a7a142a312ea82c0d8a93",
+        "GUID:b2ac4c7954d4b084ab3f316833e7c15c",
+        "GUID:d9cdabb0dc8fdc44db6b5e9a7895e309",
+        "GUID:f4ff32f5390f9a541a34717b8f0cebb0",
+        "GUID:6e50a33136518004092e55c3fb5ed06b",
+        "GUID:352a0588737c22f4fb32f5a6333d3772",
+        "GUID:09c17fd0cd450ba4391e7cbe704fd393",
+        "GUID:abdbb95de8e943e4d8df9df892c39414"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

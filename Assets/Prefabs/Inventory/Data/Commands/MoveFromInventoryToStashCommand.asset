@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a164d01b52ff8468d505d91bf70d85, type: 3}
+  m_Name: MoveFromInventoryToStashCommand
+  m_EditorClassIdentifier: 
+  _text:
+    _useConstant: 0
+    _constantValue: Move to stash
+    _variable: {fileID: 11400000, guid: 0adedd393eb933c4b9010fc874896748, type: 2}
+  _fromInventory:
+    _type: 2
+    _localInventory: {fileID: 0}
+    _globalInventories: {fileID: 11400000, guid: 1a3b38b66c54c9649b412a8cf7ab91db, type: 2}
+  _toInventory:
+    _type: 1
+    _localInventory: {fileID: 0}
+    _globalInventories: {fileID: 11400000, guid: 1a3b38b66c54c9649b412a8cf7ab91db, type: 2}
+  _connector: {fileID: 11400000, guid: fae2f4ea0ffd5194eb7f9f21c9f6f917, type: 2}
+  _isActive:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: c2ade3d296222ac4c91b65ee879b0bf3, type: 2}

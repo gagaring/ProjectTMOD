@@ -1,0 +1,31 @@
+{
+    "name": "InventoryEditModeTest",
+    "rootNamespace": "VTest.Inventory",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "BaseData",
+        "BaseGUI",
+        "Inventory",
+        "InventoryGUI",
+        "Unity.TextMeshPro",
+        "Items"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "NSubstitute.dll",
+        "Sirenix.Serialization.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

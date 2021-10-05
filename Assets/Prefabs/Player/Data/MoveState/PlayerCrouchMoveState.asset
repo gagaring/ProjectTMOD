@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5114c018f1628ea42a61eb497193e22e, type: 3}
+  m_Name: PlayerCrouchMoveState
+  m_EditorClassIdentifier: 
+  OnEnter: {fileID: 11400000, guid: 02b390459b6f9534db40bde69c3616e9, type: 2}
+  OnExit: {fileID: 11400000, guid: 97a295caa62553c45ac1853b1b3d06c2, type: 2}
+  _value:
+    UseConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 069a734231ab6ae4395d7c07c7082523, type: 2}

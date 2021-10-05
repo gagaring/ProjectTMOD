@@ -1,0 +1,18 @@
+{
+    "name": "ItemsEditor",
+    "rootNamespace": "VEditor.Items",
+    "references": [
+        "GUID:7332e520e561cc841abbda112cbaca8c",
+        "GUID:9e867ff6dc7701b4a83304d4bf0f3d36",
+        "GUID:c898d4db3ec91854f9e8ad93f6cebc6d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

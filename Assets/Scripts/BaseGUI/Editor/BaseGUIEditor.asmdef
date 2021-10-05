@@ -1,0 +1,19 @@
+{
+    "name": "BaseGUIEditor",
+    "rootNamespace": "VEditor.GUI",
+    "references": [
+        "GUID:d9cdabb0dc8fdc44db6b5e9a7895e309",
+        "GUID:9e867ff6dc7701b4a83304d4bf0f3d36"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
